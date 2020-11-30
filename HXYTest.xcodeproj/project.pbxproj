@@ -15,6 +15,7 @@
 		C51BD03C2574D148005B1299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51BD03A2574D148005B1299 /* LaunchScreen.storyboard */; };
 		C51BD03F2574D148005B1299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51BD03E2574D148005B1299 /* main.m */; };
 		C51BD0472574D638005B1299 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0462574D638005B1299 /* Person.m */; };
+		C51BD04A2574DA70005B1299 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0492574DA70005B1299 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C51BD03E2574D148005B1299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C51BD0452574D638005B1299 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		C51BD0462574D638005B1299 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C51BD0482574DA70005B1299 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		C51BD0492574DA70005B1299 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C51BD0332574D143005B1299 /* ViewController.m */,
 				C51BD0452574D638005B1299 /* Person.h */,
 				C51BD0462574D638005B1299 /* Person.m */,
+				C51BD0482574DA70005B1299 /* Teacher.h */,
+				C51BD0492574DA70005B1299 /* Teacher.m */,
 				C51BD0352574D143005B1299 /* Main.storyboard */,
 				C51BD0382574D148005B1299 /* Assets.xcassets */,
 				C51BD03A2574D148005B1299 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51BD04A2574DA70005B1299 /* Teacher.m in Sources */,
 				C51BD0342574D143005B1299 /* ViewController.m in Sources */,
 				C51BD02E2574D143005B1299 /* AppDelegate.m in Sources */,
 				C51BD0472574D638005B1299 /* Person.m in Sources */,
