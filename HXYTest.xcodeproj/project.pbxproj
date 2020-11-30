@@ -14,6 +14,7 @@
 		C51BD0392574D148005B1299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51BD0382574D148005B1299 /* Assets.xcassets */; };
 		C51BD03C2574D148005B1299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51BD03A2574D148005B1299 /* LaunchScreen.storyboard */; };
 		C51BD03F2574D148005B1299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51BD03E2574D148005B1299 /* main.m */; };
+		C51BD0472574D638005B1299 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0462574D638005B1299 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C51BD03B2574D148005B1299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C51BD03D2574D148005B1299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C51BD03E2574D148005B1299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C51BD0452574D638005B1299 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C51BD0462574D638005B1299 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				C51BD0302574D143005B1299 /* SceneDelegate.m */,
 				C51BD0322574D143005B1299 /* ViewController.h */,
 				C51BD0332574D143005B1299 /* ViewController.m */,
+				C51BD0452574D638005B1299 /* Person.h */,
+				C51BD0462574D638005B1299 /* Person.m */,
 				C51BD0352574D143005B1299 /* Main.storyboard */,
 				C51BD0382574D148005B1299 /* Assets.xcassets */,
 				C51BD03A2574D148005B1299 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				C51BD0342574D143005B1299 /* ViewController.m in Sources */,
 				C51BD02E2574D143005B1299 /* AppDelegate.m in Sources */,
+				C51BD0472574D638005B1299 /* Person.m in Sources */,
 				C51BD03F2574D148005B1299 /* main.m in Sources */,
 				C51BD0312574D143005B1299 /* SceneDelegate.m in Sources */,
 			);
